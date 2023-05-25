@@ -1,0 +1,1428 @@
+/*====== 3. PRICE & PLAN PAGE ======== */
+
+/* ======== COMMAN CSS ========== */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*=============== 3. PRICE & PLAN PAGE  ================ */
+/*=============== HERO ART CSS  ================ */
+.hero-art {
+  background-image: url(../../public/assets/images/sectionimg/artdesign_bg.png);
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  overflow-x: hidden;
+}
+.hero-art .container-fluid {
+  padding-right: 0px;
+}
+.hero-art .hero-contact {
+  padding-left: 45px;
+}
+.hero-art .hero-art-img {
+  position: relative;
+  overflow-x: hidden;
+  height: 100%;
+}
+.hero-art .hero-art-img::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    87.33deg,
+    rgba(200, 234, 255, 0.48) 16.41%,
+    rgba(255, 222, 233, 0.48) 87.94%
+  );
+}
+.hero-art .hero-art-img img {
+  opacity: 0.7;
+  height: 100%;
+  min-height: 196px;
+}
+/*=============== ENHANCE PROCESS CSS  ================ */
+.enhance-process .enhance-process-inner .enhance-process-card {
+  padding: 10px;
+  transition: box-shadow 0.15s ease-in-out;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+}
+.enhance-process .enhance-process-inner .enhance-process-card:hover {
+  box-shadow: 0 0 0 1px rgba(64, 87, 109, 0.07),
+    0 2px 12px rgba(53, 71, 90, 0.2);
+}
+.enhance-process
+  .enhance-process-inner
+  .enhance-process-card
+  .enhance-card-image {
+  width: 100%;
+  height: 100%;
+  max-width: 60px;
+  min-height: 60px;
+  background: linear-gradient(
+    180deg,
+    #c7ebff 0%,
+    rgba(199, 235, 255, 0.4) 100%
+  );
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.enhance-process
+  .enhance-process-inner
+  .enhance-process-card
+  .enhance-card-image
+  img {
+  height: 100%;
+  max-height: 25px;
+  width: 100%;
+  max-width: 25px;
+}
+.finalize-card-outer {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  border: 2px solid #2ec4b6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.finalize-card-inner {
+  width: 25px;
+  height: 25px;
+  background-color: #2ec4b6;
+  border-radius: 100%;
+  margin: 0 auto;
+}
+
+/*===============CHOOSE PLAN CSS ================ */
+.choose-plan .section_heading h3.section_title {
+  font-family: inherit;
+}
+.choose-plan .view-choose-plan {
+  display: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 31px;
+  text-align: center;
+  color: #ffffff;
+  background: linear-gradient(
+    268.03deg,
+    #5961f8 -0.66%,
+    #5961f8 -0.65%,
+    #497dec 22.41%,
+    #15d8c5 100%,
+    #15d8c5 100%
+  );
+  border-radius: 10px;
+}
+.choose-plan .choose-plan-inner .choose-plan-card {
+  background: #ffffff;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  max-width: 415px;
+  position: relative;
+  padding: 15px 18px 15px 18px;
+  margin: 0 auto;
+}
+.choose-plan .choose-plan-inner .choose-plan-card .popular-btn a {
+  position: absolute;
+  right: 21px;
+  top: 17px;
+  background: rgba(46, 196, 182, 0.18);
+  border-radius: 6px;
+  padding: 4px 18px;
+  color: #2ec5b6 !important;
+  font-family: "Fugue";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+.choose-plan .choose-plan-inner .choose-plan-card:hover .popular-btn a {
+  opacity: 1;
+}
+.choose-plan .choose-plan-inner .choose-plan-card .choose-plan-inr h3 {
+  font-size: 32px;
+  line-height: 36px;
+  font-family: fugue;
+}
+.choose-plan .choose-plan-inner .choose-plan-card .choose-plan-inr p {
+  font-size: 20px;
+  line-height: 30px;
+  font-family: fugue;
+}
+.choose-plan .choose-plan-inner .choose-plan-card .choose-plan-inr span {
+  font-size: 22px;
+  line-height: 25px;
+  padding-left: 20px;
+  color: #afb0b2;
+  font-family: fugue;
+}
+.choose-plan .choose-plan-inner .choose-plan-card .btn {
+  background: linear-gradient(
+    268.03deg,
+    #5961f8 -0.66%,
+    #5961f8 -0.65%,
+    #497dec 22.41%,
+    #15d8c5 100%,
+    #15d8c5 100%
+  );
+  box-shadow: inset 8px 8px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  font-family: "Fugue";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  padding: 8px 0 10px 0;
+}
+.choose-plan .choose-plan-inner .choose-plan-card .choose-plan-contact h3 {
+  font-family: "Fugue";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+}
+.choose-plan .choose-plan-inner .choose-plan-card .choose-contact-inner p {
+  position: relative;
+  padding-left: 25px;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+.choose-plan
+  .choose-plan-inner
+  .choose-plan-card
+  .choose-contact-inner
+  p::before {
+  position: absolute;
+  content: "\f00c";
+  left: 0;
+  top: 0;
+  font-family: "Font Awesome 6 free";
+  font-weight: 900;
+  color: #3ea7f5;
+}
+/*===============CHOOSE PLAN MODAL CSS ================ */
+.choose-plan .modal .modal-dialog {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 25px auto;
+}
+.choose-plan .modal .modal-dialog .modal-content {
+  border-radius: 30px !important;
+}
+.choose-plan .modal .modal-body {
+  background: #f2f5f7;
+  border-radius: 30px !important;
+  position: relative;
+}
+.choose-plan .modal .modal-body .close-btn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 24px;
+}
+.choose-plan .modal .modal-body .close-btn:active {
+  border: 1px solid transparent;
+}
+.choose-plan .modal .modal-body .finalize-left {
+  padding: 62px 30px 30px 30px;
+}
+.choose-plan .modal .modal-body .finalize-left .logo img {
+  width: 100%;
+  max-width: 245px;
+  height: 100%;
+  max-height: 69px;
+  min-height: 69px;
+}
+.choose-plan .modal .modal-body .finalize-left .finalize-card {
+  background: linear-gradient(
+    90deg,
+    rgba(46, 197, 182, 0.25) 0%,
+    rgba(50, 227, 211, 0.25) 100%
+  );
+  border-radius: 15px;
+  padding: 15px 18px;
+  margin-bottom: 40px;
+}
+.choose-plan
+  .modal
+  .modal-body
+  .finalize-left
+  .finalize-card
+  .finalize-card-contact
+  p {
+  font-family: "Fugue";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+}
+.choose-plan
+  .modal
+  .modal-body
+  .finalize-left
+  .finalize-card
+  .finalize-card-contact
+  h3 {
+  font-family: "Fugue";
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 41px;
+}
+.choose-plan .modal .modal-body .finalize-left .finalize-contact {
+  position: relative;
+  height: 100%;
+  max-height: 400px;
+  min-height: 400px;
+}
+.choose-plan .modal .modal-body .finalize-left .finalize-contact p {
+  position: relative;
+  padding-left: 35px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+.choose-plan .modal .modal-body .finalize-left .finalize-contact::before {
+  position: absolute;
+  content: "";
+  background-image: url("../../public/assets/images/sectionimg/user_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.choose-plan .modal .modal-body .finalize-left .finalize-contact p::before {
+  position: absolute;
+  content: "\f00c";
+  left: 0;
+  top: 0;
+  font-family: "Font Awesome 6 free";
+  font-weight: 900;
+  color: #2ec5b6;
+}
+.choose-plan .modal .modal-body .finalize-left .border-top {
+  border-top: 3px solid #e3e3e3 !important;
+}
+.choose-plan .modal .modal-body .finalize-right {
+  background-color: #ffffff;
+  height: 100%;
+  border-radius: 30px;
+  padding: 0 20px;
+}
+.choose-plan .modal .modal-body .finalize-right .payment-image img {
+  width: 100%;
+  max-width: 150px;
+}
+.choose-plan .modal .modal-body .finalize-payment-title {
+  font-family: "Fugue";
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 47px;
+  color: #000000;
+  padding: 62px 0;
+}
+.choose-plan .modal .modal-body .finalize-right .separator {
+  display: flex;
+  align-items: center;
+  padding: 30px 0;
+}
+.choose-plan .modal .modal-body .finalize-right .separator .line {
+  height: 2px;
+  flex: 1;
+  background-color: #e3e3e3;
+}
+.choose-plan .modal .modal-body .finalize-right .separator h2 {
+  padding: 0 1.5rem;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  color: #e3e3e3;
+}
+.choose-plan
+  .modal
+  .modal-body
+  .finalize-right
+  .payment-from
+  .form-group
+  .form-label {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+}
+.choose-plan
+  .modal
+  .modal-body
+  .finalize-right
+  .payment-from
+  .form-group
+  .form-control {
+  display: block;
+  width: 100%;
+  padding: 10px 65px 10px 10px;
+  font-size: 20px;
+  position: relative;
+}
+
+.choose-plan
+  .modal
+  .modal-body
+  .finalize-right
+  .payment-from
+  .form-group
+  input[type="datetime"] {
+  padding: 10px 20px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.choose-plan
+  .modal
+  .modal-body
+  .finalize-right
+  .payment-from
+  .form-group
+  .form-control::placeholder {
+  color: #d6d7da !important;
+}
+.choose-plan
+  .modal
+  .modal-body
+  .finalize-right
+  .payment-from
+  .form-group
+  .form-control:focus {
+  border: 1px solid #ced4da !important;
+  outline: 0;
+  box-shadow: 0 0 0 0rem rgb(13 110 253 / 25%);
+}
+.choose-plan
+  .modal
+  .modal-body
+  .finalize-right
+  .payment-from
+  .form-group
+  .cart-img {
+  position: absolute;
+  content: "";
+  right: 10px;
+  top: 44px;
+}
+.choose-plan .modal .modal-body .finalize-right .payment-from .payment-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #91949c;
+}
+.choose-plan .modal .modal-body .finalize-right .paynow {
+  background: linear-gradient(89.03deg, #2ec5b6 0%, #497dec 99.78%);
+  border-radius: 10px;
+  font-family: "Fugue";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  padding: 6px 0;
+  text-align: center;
+  width: 100%;
+  color: #ffffff;
+  border: 1px solid transparent;
+}
+.choose-plan .modal .modal-body .finalize-right .finalize-contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.choose-plan .modal .modal-body .finalize-right .payment-text p {
+  font-size: 16px;
+  line-height: 24px;
+}
+/* ================ LOGIN OFFCANVAS ========== */
+.login_offcanvas.offcanvas.offcanvas-bottom {
+  border-radius: 25px 25px 0 0;
+  height: auto;
+}
+/*===============CHOOSE PLAN OFFCANVAS CSS ================ */
+#choosePlanOffcanvas {
+  width: 100% !important;
+  display: none;
+}
+.choose-plan .offcanvas .offcanvas-header {
+  box-shadow: 0px 1px 4px rgba(34, 34, 34, 0.15);
+}
+.choose-plan .offcanvas .offcanvas-header h5 {
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 31px;
+  color: #222222;
+}
+.choose-plan .offcanvas .offcanvas-header .btn i {
+  font-size: 20px;
+}
+.choose-plan .offcanvas .plan-inner-body {
+  padding: 16px;
+  height: 84vh;
+  overflow: auto;
+}
+.choose-plan
+  .offcanvas
+  .plan-inner-body
+  .section_heading
+  .section_heading_title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 35px;
+  text-align: center;
+  color: #222222;
+}
+.choose-plan .offcanvas .plan-inner-body .section_heading {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: #222222;
+}
+.choose-plan .offcanvas .plan-inner-body .plan-card.card {
+  border: 1.5px solid #e1e1e1;
+  border-radius: 5px;
+}
+.choose-plan .offcanvas .plan-inner-body .plan-card.active {
+  border: 1px solid #497dec;
+  border-radius: 5px;
+}
+.choose-plan .offcanvas .plan-inner-body .plan-card.active .card-header {
+  background: linear-gradient(
+    268.03deg,
+    #5961f8 -0.66%,
+    #5961f8 -0.65%,
+    #497dec 22.41%,
+    #15d8c5 100%,
+    #15d8c5 100%
+  );
+  border-radius: 5px 5px 0px 0px;
+}
+.choose-plan
+  .offcanvas
+  .plan-inner-body
+  .plan-card.active
+  .card-header
+  .plan-card-title {
+  color: #fff;
+}
+.choose-plan .offcanvas .plan-inner-body .plan-card-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #777777;
+}
+.choose-plan .offcanvas .plan-inner-body .plan-card-contact h3 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 44px;
+  text-align: right;
+  color: #222222;
+}
+.choose-plan .offcanvas .plan-inner-body .plan-card-contact p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  color: #222222;
+}
+.choose-plan .offcanvas .plan-inner-body p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  color: #666666;
+}
+.choose-plan .offcanvas .plan-inner-footer {
+  background: #ffffff;
+  border-top: 1px solid #d6d7da;
+  padding: 10px 16px;
+}
+.choose-plan .offcanvas .plan-inner-footer a.btn {
+  background: linear-gradient(
+    268.03deg,
+    #5961f8 -0.66%,
+    #5961f8 -0.65%,
+    #497dec 22.41%,
+    #15d8c5 100%,
+    #15d8c5 100%
+  );
+  border-radius: 10px;
+  width: 100%;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  border: 1px solid transparent;
+}
+/* ========== SUBSCRIPTION TABS START =======  */
+.subscriptions-contact {
+  position: relative;
+  width: 100%;
+}
+.subscriptions-contact .nav.nav-pills {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background: #fff;
+  box-shadow: 0 3px 8px 0 rgb(0 0 0 / 4%);
+}
+.subscriptions-contact .nav.nav-pills .nav-item {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 20px;
+}
+.subscriptions-contact .nav.nav-pills .nav-item .nav-link.active,
+.subscriptions-contact .nav.nav-pills .nav-item .show > .nav-link {
+  color: #000000;
+  background-color: transparent;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  font-family: "Fugue";
+}
+.subscriptions-contact .nav.nav-pills .nav-item .nav-link.active {
+  border-bottom: 2px solid #497dec;
+  border-radius: 0px;
+}
+.subscriptions-contact .nav.nav-pills .nav-item .nav-link {
+  width: 100%;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  border-bottom: 1px solid transparent;
+  font-family: "Fugue";
+}
+.subscriptions-contact .tab-content .tab-pane {
+  background: #fff;
+  box-shadow: 0 1px 0 0 rgb(0 0 0 / 5%);
+  margin: 0 auto;
+  border-radius: 6px;
+  width: 100%;
+  max-width: 650px;
+}
+.subscriptions-contact
+  .tab-content
+  .tab-pane.account_details_tab
+  .current-plan
+  .current-plan-card
+  .current-contact
+  .btn-active {
+  max-width: 100%;
+}
+.subscriptions-contact
+  .tab-content
+  .tab-pane
+  .current-plan
+  .current-plan-card
+  .logo-image
+  img {
+  width: 100%;
+  max-width: 199px;
+}
+.subscriptions-contact
+  .tab-content
+  .tab-pane
+  .current-plan
+  .current-plan-card
+  .current-contact
+  p {
+  width: 100%;
+  max-width: 550px;
+}
+.table-responsive::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #f5f5f5;
+}
+.table-responsive::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.table-responsive::-webkit-scrollbar-thumb {
+  background-color: #2ec4b6;
+}
+.subscriptions-contact
+  .tab-content
+  .tab-pane
+  .current-plan
+  .section_heading_title {
+  font-size: 25px;
+  line-height: 29px;
+}
+/* .subscriptions-contact .tab-content .tab-pane .current-plan .current-plan-card .current-contact .btn-active{
+    background: linear-gradient(
+    268.03deg,
+    #5961f8 -0.66%,
+    #5961f8 -0.65%,
+    #497dec 22.41%,
+    #15d8c5 100%,
+    #15d8c5 100%
+  );
+    border-radius: 10px;
+    width: 100%;
+    max-width: 250px;
+    font-family: 'Fugue';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    border: 1px solid transparent;
+    height: 45px;
+ } */
+.subscriptions-contact
+  .tab-content
+  .tab-pane
+  .current-plan
+  .current-plan-card
+  .current-contact
+  .section_title {
+  font-family: "Fugue";
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 30px;
+}
+.subscriptions-contact
+  .tab-content
+  .tab-pane
+  .current-plan
+  .current-plan-card
+  .current-contact
+  .section_title
+  span {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+}
+.subscriptions-contact
+  .tab-content
+  .tab-pane
+  .current-plan
+  .current-plan-card
+  .table
+  .btn-download {
+  background: linear-gradient(
+    268.03deg,
+    #5961f8 -0.66%,
+    #5961f8 -0.65%,
+    #497dec 22.41%,
+    #15d8c5 100%,
+    #15d8c5 100%
+  );
+  border-radius: 8px;
+  font-family: "Fugue";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  width: 150px;
+  height: 40px;
+}
+.subscriptions-contact
+  .tab-content
+  .tab-pane
+  .current-plan
+  .current-plan-card
+  .table
+  .btn-download:active {
+  border: 1px solid transparent;
+}
+.subscriptions-contact
+  .tab-content
+  .tab-pane
+  .current-plan
+  .current-plan-card
+  .table
+  thead
+  tr
+  th {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  white-space: nowrap;
+}
+.subscriptions-contact
+  .tab-content
+  .tab-pane
+  .current-plan
+  .current-plan-card
+  .table
+  > :not(caption)
+  > *
+  > * {
+  padding: 0.5rem 1.5rem !important;
+}
+.subscriptions-contact
+  .tab-content
+  .tab-pane
+  .current-plan
+  .current-plan-card
+  .table
+  tbody
+  tr
+  td
+  a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  white-space: nowrap;
+}
+.subscriptions-contact
+  .tab-content
+  .tab-pane
+  .current-plan
+  .current-plan-card
+  .table
+  tbody
+  tr
+  td
+  a
+  i {
+  color: #2ec5b6;
+  font-size: 20px;
+  line-height: 24px;
+}
+.profile_upload .btn-upload {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  border: 1px solid #cbcbcb;
+  border-radius: 20px;
+  height: 40px;
+}
+.subscriptions-contact
+  .tab-content
+  .tab-pane
+  .current-plan
+  .current-plan-card
+  .current-profile
+  .form-group
+  .form-label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #a3a3a3;
+}
+.subscriptions-contact
+  .tab-content
+  .tab-pane
+  .current-plan
+  .current-plan-card
+  .current-profile
+  .form-group
+  .form-control {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #525252;
+  padding: 10px;
+}
+.subscriptions-contact
+  .tab-content
+  .tab-pane
+  .current-plan
+  .current-plan-card
+  .current-profile
+  .form-group
+  .form-control:focus {
+  border-color: #ced4da;
+  outline: 0;
+  box-shadow: 0 0 0 0 rgb(13 110 253 / 25%);
+}
+.profile_upload .current-profile h3 {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+}
+.subscriptions-contact
+  .tab-content
+  .tab-pane
+  .current-plan
+  .current-plan-card
+  .current-profile
+  .comman_para {
+  width: 100%;
+  max-width: 450px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  margin: 0 auto;
+}
+.profile_upload .current-profile .current-profile-logo img {
+  border-radius: 50%;
+  width: 100%;
+  /* max-width: 100px; */
+  height: 100%;
+  /* max-height: 100px;
+  min-height: 100px; */
+}
+
+.profile_upload .avatar-upload {
+  position: relative;
+  max-width: 205px;
+  margin: 15px auto;
+}
+
+.profile_upload .btn-upload .avatar-edit input {
+  display: none;
+}
+
+.profile_upload .btn-upload .avatar-edit input + label::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+.profile_upload .avatar-upload .avatar-preview {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  border-radius: 100%;
+  border: 6px solid #f8f8f8;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+.profile_upload .avatar-upload .avatar-preview > #imagePreview {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media screen and (min-width: 991px) and (max-width: 1024px) {
+  /*=============== 3. PRICE & PLAN PAGE  ================ */
+  /* ========= CHOOSE PLAN SECTION =========  */
+  .choose-plan .choose-plan-inner .choose-plan-card .choose-plan-inr h3 {
+    font-size: 40px;
+    line-height: 50px;
+    font-family: fugue;
+  }
+  .choose-plan .choose-plan-inner .choose-plan-card .choose-plan-inr span {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+@media screen and (max-width: 991px) {
+  /*=============== 3. PRICE & PLAN PAGE  ================ */
+  .hero-art .container-fluid {
+    padding-right: 0px;
+  }
+  .hero-art .hero-contact {
+    padding-left: 0px;
+  }
+}
+@media screen and (max-width: 767px) {
+  /*=============== 3. PRICE & PLAN PAGE  ================ */
+  .subscriptions-contact
+    .tab-content
+    .tab-pane
+    .current-plan
+    .current-plan-card
+    .current-contact
+    .section_title {
+    font-size: 22px;
+    line-height: 30px;
+  }
+}
+@media screen and (max-width: 575px) {
+  /*=============== 3. PRICE & PLAN PAGE  ================ */
+  .hero-art .hero-contact .main_heading {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .choose-plan .choose-plan-inner .choose-plan-card .choose-plan-inr h3 {
+    font-size: 32px;
+    line-height: 42px;
+    font-family: fugue;
+  }
+  .choose-plan .choose-plan-inner .choose-plan-card .choose-plan-inr span {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .choose-plan .choose-plan-inner {
+    display: none;
+    width: 100%;
+  }
+  .view-choose-plan {
+    display: block;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: center;
+    color: #ffffff;
+    background: linear-gradient(
+      268.03deg,
+      #5961f8 -0.66%,
+      #5961f8 -0.65%,
+      #497dec 22.41%,
+      #15d8c5 100%,
+      #15d8c5 100%
+    );
+    border-radius: 5px;
+  }
+  .choose-plan .view-choose-plan {
+    display: block;
+  }
+  .choose-plan .view-choose-plan:active {
+    border: 1px solid transparent;
+    color: #fff;
+  }
+  #choosePlanOffcanvas {
+    width: 100% !important;
+    display: block;
+  }
+  .choose-plan .modal .modal-dialog {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0px;
+    margin: 0px auto;
+  }
+  .choose-plan .modal .modal-body {
+    background: #ffffff;
+    border-radius: 0px !important;
+    position: relative;
+  }
+  .choose-plan .modal .modal-body .finalize-left .border-top {
+    display: none !important;
+  }
+  .choose-plan .modal .modal-body .finalize-left .finalize-contact::before {
+    display: none !important;
+  }
+  .choose-plan .modal .modal-body .finalize-left .finalize-contact {
+    position: relative;
+    height: 100%;
+    max-height: 100%;
+    min-height: 100%;
+  }
+  .choose-plan .modal .modal-body .finalize-left {
+    padding: 30px;
+  }
+  .choose-plan .modal .modal-body .finalize-payment-title {
+    font-size: 28px;
+    line-height: 36px;
+    padding: 20px 0 0 0;
+  }
+  .choose-plan .modal .modal-body .close-btn {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    font-size: 30px;
+    text-align: start !important;
+  }
+  .choose-plan .modal .modal-body .finalize-left .finalize-card {
+    background: linear-gradient(
+      268.03deg,
+      #5961f8 -0.66%,
+      #5961f8 -0.65%,
+      #497dec 22.41%,
+      #15d8c5 100%,
+      #15d8c5 100%
+    );
+    border-radius: 5px;
+    padding: 12px;
+    margin-bottom: 20px;
+    color: #fff;
+    justify-content: center;
+  }
+  .choose-plan
+    .modal
+    .modal-body
+    .finalize-left
+    .finalize-card
+    .finalize-card-contact
+    p {
+    color: #fff;
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .choose-plan .modal .modal-body .finalize-card-contact {
+    text-align: center;
+  }
+  .choose-plan .modal .modal-body .finalize-left .finalize-contact p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .choose-plan
+    .modal
+    .modal-body
+    .finalize-right
+    .payment-from
+    .form-group
+    .form-label {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .choose-plan
+    .modal
+    .modal-body
+    .finalize-right
+    .payment-from
+    .form-group
+    .form-control {
+    padding: 6px 65px 6px 6px;
+    font-size: 18px;
+  }
+  .choose-plan
+    .modal
+    .modal-body
+    .finalize-right
+    .payment-from
+    .form-group
+    .cart-img {
+    position: absolute;
+    content: "";
+    right: 10px;
+    top: 36px;
+  }
+  .choose-plan .modal .modal-body .finalize-right .paynow {
+    border-radius: 10px;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 9px 0;
+  }
+  .choose-plan .modal .modal-body .finalize-right .separator {
+    padding: 30px 40px;
+  }
+  .choose-plan .modal .modal-body .finalize-right .payment-text p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .profile_upload .current-profile h3 {
+    text-align: center;
+  }
+  /* ========== SUBSCRIPTION TABS START =======  */
+  .subscriptions-contact .tab-content {
+    background-color: #fff;
+  }
+  .subscriptions-contact
+    .tab-content
+    .tab-pane
+    .current-plan-inner
+    .current-inner {
+    background: #f8f8f8;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  .subscriptions-contact
+    .tab-content
+    .tab-pane
+    .current-plan-inner
+    .current-inner
+    .title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+  }
+  .subscriptions-contact
+    .tab-content
+    .tab-pane
+    .current-plan-inner
+    .current-inner
+    .card-price
+    .section-text {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #222222;
+  }
+  .subscriptions-contact
+    .tab-content
+    .tab-pane
+    .current-plan-inner
+    .current-inner
+    .card-price
+    .card-price-inner
+    p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    color: #777777;
+  }
+  .subscriptions-contact
+    .tab-content
+    .tab-pane
+    .current-plan-inner
+    .current-inner
+    .card-price
+    .card-price-inner
+    span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    color: #222222;
+  }
+  .subscriptions-contact
+    .tab-content
+    .tab-pane
+    .current-plan-inner
+    .current-inner
+    .card-view
+    .btn-renew {
+    background: linear-gradient(
+      268.03deg,
+      #5961f8 -0.66%,
+      #5961f8 -0.65%,
+      #497dec 22.41%,
+      #15d8c5 100%,
+      #15d8c5 100%
+    );
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #ffffff;
+    width: 100%;
+    max-width: 150px;
+    border: 1px solid transparent;
+  }
+  .subscriptions-contact
+    .tab-content
+    .tab-pane
+    .current-plan-inner
+    .current-inner
+    .card-view
+    .btn-view {
+    border: 1px solid #2ec4b6;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #2ec4b6;
+    width: 100%;
+    max-width: 150px;
+  }
+  .profile_upload .avatar-upload .avatar-preview {
+    width: 90px;
+    height: 90px;
+  }
+  /* ======== ACCORDION CSS ========  */
+  .accordion-contact .accordion-button:not(.collapsed) {
+    color: #000;
+    background-color: transparent;
+    box-shadow: none;
+  }
+  .accordion-contact .accordion-button {
+    background-color: transparent;
+  }
+  .accordion-contact .accordion-button:focus {
+    border-color: transparent;
+    box-shadow: none;
+  }
+  .accordion-contact .accordion-item {
+    background-color: transparent;
+    border: none;
+  }
+  .accordion-contact .accordion-item .accordion-header:not(.collapsed) {
+    background-color: #2ec5b6;
+    color: #fff;
+  }
+  .accordion-contact .accordion-item .accordion-header {
+    background: #f8f8f8;
+    border-radius: 5px;
+    padding: 25px 20px;
+  }
+  .accordion-contact .accordion-item .accordion-header p {
+    font-family: "Fugue";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .accordion-contact .accordion-item .accordion-body .invoice-btn {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #2ec4b6;
+    border: 1px solid #2ec4b6;
+    border-radius: 5px;
+    width: 100%;
+  }
+  .accordion-contact .accordion-item .accordion-body {
+    background: #f8f8f8;
+    border-radius: 5px;
+  }
+  .accordion-contact .accordion-button:not(.collapsed)::after {
+    background-image: none;
+    content: "\f077";
+    font-family: "Font Awesome 6 free";
+    font-weight: 900;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    color: #32dfcf;
+    border: 1px solid #32dfcf;
+    width: 100%;
+    max-width: 25px;
+    height: 100%;
+    max-height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+  .accordion-contact .accordion-button::after {
+    background-image: none;
+    content: "\f078";
+    font-family: "Font Awesome 6 free";
+    font-weight: 900;
+    position: absolute;
+    left: 50%;
+    top: -13px;
+    transform: translate(-50%);
+    color: #32dfcf;
+    border: 1px solid #32dfcf;
+    width: 100%;
+    max-width: 25px;
+    height: 100%;
+    max-height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: var(--bs-accordion-btn-icon-transition);
+  }
+
+  /* =========== VIEW PLAN CSS ======== */
+  .view_plan_modal .modal-content {
+    border-radius: 25px;
+  }
+  .view_plan_modal .card_description .plan_list ul li::before {
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    left: -30px;
+    color: #32e4d4;
+    font-size: 23px;
+  }
+  .view_plan_modal .card_description .plan_list ul li {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #222222;
+  }
+  .view_plan_modal .card_description .plan_list {
+    padding-left: 30px;
+  }
+  /* <!-- ======== SMALL SCREEN ACCOUNT DETAILS =========== --> */
+  .account_deatils .displayname_btn a {
+    text-decoration: none;
+    padding: 10px 14px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #777777;
+    border-radius: 5px;
+    width: 90px;
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 480px) {
+  .modal .modal-body .finalize-right .finalize-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 428px) {
+  .profile_upload .current-profile h3 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .subscriptions-contact
+    .tab-content
+    .tab-pane
+    .current-plan
+    .current-plan-card
+    .btn-upload {
+    font-size: 17px;
+    line-height: 25px;
+  }
+  .subscriptions-contact
+    .tab-content
+    .tab-pane
+    .current-plan
+    .current-plan-card
+    .current-contact
+    .btn-active {
+    max-width: 230px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .subscriptions-contact
+    .tab-content
+    .tab-pane
+    .current-plan-inner
+    .current-inner
+    .card-view
+    .btn-renew {
+    max-width: 130px;
+  }
+  .subscriptions-contact
+    .tab-content
+    .tab-pane
+    .current-plan-inner
+    .current-inner
+    .card-view
+    .btn-view {
+    max-width: 130px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .subscriptions-contact
+    .tab-content
+    .tab-pane
+    .current-plan-inner
+    .current-inner
+    .card-view
+    .btn-renew {
+    max-width: 110px;
+  }
+  .subscriptions-contact
+    .tab-content
+    .tab-pane
+    .current-plan-inner
+    .current-inner
+    .card-view
+    .btn-view {
+    max-width: 110px;
+  }
+}
