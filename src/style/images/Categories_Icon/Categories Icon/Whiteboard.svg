@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="66" height="66" viewBox="0 0 66 66">
+  <g id="Whiteboard" transform="translate(1 -31)">
+    <rect id="Rectangle_28" data-name="Rectangle 28" width="66" height="66" rx="16" transform="translate(-1 31)" fill="#fff"/>
+    <g id="Group_525" data-name="Group 525" transform="translate(1646.936 -2628.287)">
+      <path id="whiteboard-svgrepo-com" d="M10.884,15.548H24.1a.777.777,0,1,1,0,1.555H16.3l1.785,6.663a.777.777,0,1,1-1.5.4L14.688,17.1H13.216v4.665a.777.777,0,1,1-1.555,0V17.1H10.19L8.3,24.169a.777.777,0,1,1-1.5-.4L8.58,17.1H.777a.777.777,0,0,1,0-1.555H10.884Z" transform="translate(-1626.936 2680.287)" fill="#2ec4b6"/>
+      <path id="whiteboard-svgrepo-com-2" data-name="whiteboard-svgrepo-com" d="M10.884,13.994v1.555c13.645,0-10.538,0-6.219,0V13.994h6.219Zm-7.774,0H1.555V1.555A1.555,1.555,0,0,1,3.11,0H21.768a1.555,1.555,0,0,1,1.555,1.555V13.994H21.768V1.555H3.11Z" transform="translate(-1626.936 2680.287)" fill="#ff9f1c"/>
+      <path id="whiteboard-svgrepo-com-3" data-name="whiteboard-svgrepo-com" d="M12.154,17.1h1.062v4.665a.777.777,0,1,1-1.555,0V17.1h.493Z" transform="translate(-1626.936 2680.287)" fill="#ff9f1c"/>
+    </g>
+  </g>
+</svg>

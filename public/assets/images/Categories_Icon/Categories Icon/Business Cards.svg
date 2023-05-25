@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="66" height="66" viewBox="0 0 66 66">
+  <g id="Business_Cards" data-name="Business Cards" transform="translate(0 -31)">
+    <rect id="Rectangle_28" data-name="Rectangle 28" width="66" height="66" rx="16" transform="translate(0 31)" fill="#fff"/>
+    <g id="Group_528" data-name="Group 528" transform="translate(1986 -2715)">
+      <g id="credit-card-icon" transform="translate(-1965 2774.448)">
+        <path id="Path_11436" data-name="Path 11436" d="M9.073,40.28H23.352a1.264,1.264,0,0,1,.891.369h0a1.256,1.256,0,0,1,.371.889V56.344a1.254,1.254,0,0,1-.369.887v0a1.255,1.255,0,0,1-.891.369H1.263a1.255,1.255,0,0,1-.891-.369v0A1.246,1.246,0,0,1,0,56.346V41.538A1.26,1.26,0,0,1,1.261,40.28H9.073ZM1.235,41.4a.663.663,0,0,0-.117.176V43.4H23.493v-1.86a.133.133,0,0,0-.04-.1h0a.143.143,0,0,0-.1-.042H1.261a.1.1,0,0,0-.025,0Zm16.846,8.2h4v1.5h-4V49.6Zm-9.82,0h4v1.5h-4V49.6Zm15.231-2.007H1.118v8.752a.134.134,0,0,0,.042.1h0a.14.14,0,0,0,.1.042H23.352a.151.151,0,0,0,.1-.042h0a.141.141,0,0,0,.042-.1h0V47.591Z" transform="translate(0 -40.28)" fill="#2ec4b6" fill-rule="evenodd"/>
+      </g>
+      <g id="credit-card-icon-2" data-name="credit-card-icon" transform="translate(-1963.322 2766)">
+        <path id="Path_11436-2" data-name="Path 11436" d="M24.49,3.11,15.706,8.448h2.5l6.485-3.941.952-.579,2.745,4.52H8.418L22.055.161h0a1.105,1.105,0,0,1,1.521.371h0l1.391,2.288-.476.289ZM9.985,17.767h4v1.5h-4v-1.5Zm0,3.54H21.153v1.349H9.985V21.307Zm9.82-3.54h4v1.5h-4v-1.5Z" transform="translate(-8.393)" fill="#ff9f1c" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="66" height="66" viewBox="0 0 66 66">
+  <g id="Landscape_Posters" data-name="Landscape Posters" transform="translate(0 2)">
+    <rect id="Rectangle_28" data-name="Rectangle 28" width="66" height="66" rx="16" transform="translate(0 -2)" fill="#fff"/>
+    <g id="mode-landscape" transform="translate(20 22)">
+      <g id="Group_497" data-name="Group 497" transform="translate(7.054 3.135)">
+        <path id="Path_11314" data-name="Path 11314" d="M14.756,16.98a.784.784,0,0,0,.554-1.338l-4.837-4.836a3.919,3.919,0,0,0-5.541,0l-1.7,1.7a.784.784,0,1,0,1.108,1.108l1.7-1.7a2.406,2.406,0,0,1,3.325,0L14.2,16.75A.784.784,0,0,0,14.756,16.98Z" transform="translate(-3 -4.832)" fill="#ff9f1c"/>
+        <path id="Path_11315" data-name="Path 11315" d="M15.243,8.986A2.743,2.743,0,1,0,12.5,6.243,2.743,2.743,0,0,0,15.243,8.986Zm0-3.919a1.176,1.176,0,1,1-1.176,1.176,1.176,1.176,0,0,1,1.176-1.176Z" transform="translate(-5.054 -3.5)" fill="#ff9f1c"/>
+      </g>
+      <g id="Group_498" data-name="Group 498">
+        <path id="Path_11316" data-name="Path 11316" d="M21.486,16a.784.784,0,0,0-.784.784v1.567A2.351,2.351,0,0,1,18.351,20.7H16.784a.784.784,0,1,0,0,1.567h1.567a3.923,3.923,0,0,0,3.919-3.919V16.784A.784.784,0,0,0,21.486,16Z" transform="translate(4.377 -3.46)" fill="#2ec4b6"/>
+        <path id="Path_11317" data-name="Path 11317" d="M.784,6.27a.784.784,0,0,0,.784-.784V3.919A2.351,2.351,0,0,1,3.919,1.567H5.486A.784.784,0,0,0,5.486,0H3.919A3.923,3.923,0,0,0,0,3.919V5.486A.784.784,0,0,0,.784,6.27Z" fill="#2ec4b6"/>
+        <path id="Path_11318" data-name="Path 11318" d="M5.486,20.7H3.919a2.351,2.351,0,0,1-2.351-2.351V16.784a.784.784,0,1,0-1.567,0v1.567A3.923,3.923,0,0,0,3.919,22.27H5.486a.784.784,0,1,0,0-1.567Z" transform="translate(0 -3.46)" fill="#2ec4b6"/>
+        <path id="Path_11319" data-name="Path 11319" d="M18.351,0H16.784a.784.784,0,1,0,0,1.567h1.567A2.351,2.351,0,0,1,20.7,3.919V5.486a.784.784,0,1,0,1.567,0V3.919A3.923,3.923,0,0,0,18.351,0Z" transform="translate(4.377)" fill="#2ec4b6"/>
+      </g>
+    </g>
+  </g>
+</svg>

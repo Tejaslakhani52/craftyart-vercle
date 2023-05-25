@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'FONTSPRING DEMO - Proxima Nova ExCn';
+    src: url('FONTSPRINGDEMO-ProximaNovaExCnThinItalic.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-ProximaNovaExCnThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Proxima Nova ExCn';
+    src: url('FONTSPRINGDEMO-ProximaNovaExCnThinRegular.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-ProximaNovaExCnThinRegular.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Proxima Nova ExCn';
+    src: url('FONTSPRINGDEMO-ProximaNovaExCnSemiboldItalic.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-ProximaNovaExCnSemiboldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Proxima Nova ExCn';
+    src: url('FONTSPRINGDEMO-ProximaNovaExCnRegular.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-ProximaNovaExCnRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Proxima Nova';
+    src: url('FONTSPRINGDEMO-ProximaNovaMediumItalic.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-ProximaNovaMediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Proxima Nova';
+    src: url('FONTSPRINGDEMO-ProximaNovaExtraboldItalic.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-ProximaNovaExtraboldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Proxima Nova ExCn';
+    src: url('FONTSPRINGDEMO-ProximaNovaExCnSemiboldRegular.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-ProximaNovaExCnSemiboldRegular.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Proxima Nova';
+    src: url('FONTSPRINGDEMO-ProximaNovaExtraboldRegular.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-ProximaNovaExtraboldRegular.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Proxima Nova';
+    src: url('FONTSPRINGDEMO-ProximaNovaLightRegular.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-ProximaNovaLightRegular.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Proxima Nova';
+    src: url('FONTSPRINGDEMO-ProximaNovaMediumRegular.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-ProximaNovaMediumRegular.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Proxima Nova ExCn';
+    src: url('FONTSPRINGDEMO-ProximaNovaExCnItalic.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-ProximaNovaExCnItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Proxima Nova';
+    src: url('FONTSPRINGDEMO-ProximaNovaLightItalic.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-ProximaNovaLightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Proxima Nova';
+    src: url('FONTSPRINGDEMO-ProximaNovaThinItalic.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-ProximaNovaThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Proxima Nova';
+    src: url('FONTSPRINGDEMO-ProximaNovaItalic.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-ProximaNovaItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Proxima Nova';
+    src: url('FONTSPRINGDEMO-ProximaNovaSemiboldItalic.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-ProximaNovaSemiboldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Proxima Nova';
+    src: url('FONTSPRINGDEMO-ProximaNovaSemiboldRegular.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-ProximaNovaSemiboldRegular.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Proxima Nova';
+    src: url('FONTSPRINGDEMO-ProximaNovaThinRegular.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-ProximaNovaThinRegular.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Proxima Nova';
+    src: url('FONTSPRINGDEMO-ProximaNovaRegular.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-ProximaNovaRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

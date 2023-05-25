@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="66" height="66" viewBox="0 0 66 66">
+  <g id="Presentations" transform="translate(0 -31)">
+    <rect id="Rectangle_28" data-name="Rectangle 28" width="66" height="66" rx="16" transform="translate(0 31)" fill="#fff"/>
+    <g id="presentation-chart-svgrepo-com" transform="translate(19 50)">
+      <g id="Group_530" data-name="Group 530">
+        <g id="Group_529" data-name="Group 529">
+          <path id="Path_11442" data-name="Path 11442" d="M26.833,0H1.167a1.167,1.167,0,0,0,0,2.333V21H12.833v2.646a2.333,2.333,0,1,0,2.333,0V21H26.833V2.333a1.167,1.167,0,0,0,0-2.333ZM24.5,18.667H3.5V2.333h21Z" fill="#2ec4b6"/>
+          <path id="Path_11443" data-name="Path 11443" d="M192,85.333v2.333h2.333A2.333,2.333,0,0,0,192,85.333Z" transform="translate(-181.5 -80.666)" fill="#2ec4b6"/>
+          <path id="Path_11444" data-name="Path 11444" d="M110.167,92.333a3.5,3.5,0,0,0,3.5-3.5h-3.5v-3.5a3.5,3.5,0,0,0,0,7Z" transform="translate(-100.834 -80.666)" fill="#ff9f1c"/>
+          <path id="Path_11445" data-name="Path 11445" d="M299.834,92.334a1.167,1.167,0,1,0,0,2.333h2.333v1.167a1.167,1.167,0,0,0,2.333,0V86.5a1.167,1.167,0,0,0-2.333,0v1.167h-2.333a1.167,1.167,0,1,0,0,2.333h2.333v2.333Z" transform="translate(-282.334 -80.667)" fill="#ff9f1c"/>
+          <path id="Path_11446" data-name="Path 11446" d="M107.834,258.334h5.833a1.167,1.167,0,1,0,0-2.333h-5.833a1.167,1.167,0,1,0,0,2.333Z" transform="translate(-100.834 -242.001)" fill="#ff9f1c"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
