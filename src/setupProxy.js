@@ -9,7 +9,7 @@ module.exports = function (app) {
     proxy({
       target: "https://story.craftyartapp.com",
       changeOrigin: true,
-      agent: new HttpsProxyAgent("https://craftyart-vercle-yd2c.vercel.app/"), // Replace with your proxy server and port
+      agent: new HttpsProxyAgent({ rejectUnauthorized: false }),
       pathRewrite: {
         "^/get/main/data": "/get/main/data",
       },
