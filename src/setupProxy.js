@@ -1,13 +1,15 @@
-const { createProxyMiddleware } = require("http-proxy-middleware");
+const proxy = require("http-proxy-middleware");
+const HttpsProxyAgent = require("https-proxy-agent");
 
 module.exports = function (app) {
   console.log("Proxy middleware enabled");
+
   app.use(
     "/get/main/data",
-    createProxyMiddleware({
+    proxy({
       target: "https://story.craftyartapp.com",
       changeOrigin: true,
-      secure: false,
+      agent: new HttpsProxyAgent("https://craftyart-vercle-yd2c.vercel.app/"), // Replace with your proxy server and port
       pathRewrite: {
         "^/get/main/data": "/get/main/data",
       },
