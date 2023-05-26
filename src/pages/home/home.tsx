@@ -35,19 +35,6 @@ export default function Home(): JSX.Element {
     setIsloading(false);
   }, [templates]);
 
-  // useEffect(() => {
-  //   const handlePopstate = () => {
-  //     if (window.location.pathname === "/") {
-  //       window.history.pushState({}, "", "/"); // Prevent going back further
-  //     }
-  //   };
-
-  //   window.addEventListener("popstate", handlePopstate);
-
-  //   return () => {
-  //     window.removeEventListener("popstate", handlePopstate);
-  //   };
-  // }, []);
   return (
     <>
       <div className="small_fixed_footer d-bock d-sm-none">
@@ -62,8 +49,4 @@ export default function Home(): JSX.Element {
       <Waiting />
     </>
   );
-
-  function InlineWrapperWithMargin({ children }: PropsWithChildren<unknown>) {
-    return <span style={{ marginRight: "0.5rem" }}>{children}</span>;
-  }
 }

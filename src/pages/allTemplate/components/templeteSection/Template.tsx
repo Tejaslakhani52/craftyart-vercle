@@ -203,7 +203,7 @@ export default function Templete({ setId }: any) {
       ) : (
         <>
           <div
-            style={{
+            style={{  
               gridTemplateColumns: ` repeat(${multiSize}, minmax(0px, 1fr))`,
               display: "grid",
               placeItems: "center",
@@ -246,7 +246,7 @@ export default function Templete({ setId }: any) {
             {templates && templates?.total_pages > page ? (
               new Array(multiSize).fill("#497dec26").map((item, index) => (
                 <div
-                  key={index}
+                  key={index} 
                   ref={lastItemRef}
                   style={{
                     backgroundColor: "#497dec26",
