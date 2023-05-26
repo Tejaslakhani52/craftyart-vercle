@@ -7,6 +7,7 @@ module.exports = function (app) {
     createProxyMiddleware({
       target: "https://story.craftyartapp.com",
       changeOrigin: true,
+      secure: false,
       pathRewrite: {
         "^/get/main/data": "/get/main/data",
       },
